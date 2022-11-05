@@ -1,0 +1,37 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "tekunyanAR.moc3",
+		"Textures": [
+			"tekunyanAR.1024/texture_00.png"
+		],
+		"Physics": "tekunyanAR.physics3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motion/Idol.motion3.json",
+					"FadeInTime": 0.5,
+					"FadeOutTime": 0.5
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": ""
+		}
+	]
+}
